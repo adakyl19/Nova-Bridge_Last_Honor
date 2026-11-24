@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "business_name": "Last Honor Funerals",
+    "country": "South Africa",
+    "profile_approved": false,
+    "last_updated": "2026-11-24",
+    "how_to_use": "This file is the ONLY source of business facts for the receptionist. Change a field's status to 'verified' and put the real value in 'value' only after the business owner has confirmed it in writing. A field marked 'verified' that still holds its placeholder is treated as unverified, so a half-finished edit can never reach a customer.",
+    "do_not": "Never fill in a price, address, phone number or procedure that the owner has not confirmed. The receptionist will politely offer a human instead."
+  },
+  "facts": {
+    "address": {
+      "status": "unverified",
+      "placeholder": "[BUSINESS_ADDRESS]",
+      "value": "",
+      "description": "Physical office / branch address customers can travel to."
+    },
+    "phone": {
+      "status": "unverified",
+      "placeholder": "[BUSINESS_PHONE]",
+      "value": "",
+      "description": "Main telephone number customers should call."
+    },
+    "whatsapp_number": {
+      "status": "unverified",
+      "placeholder": "[WHATSAPP_NUMBER]",
+      "value": "",
+      "description": "The WhatsApp Business number (once Phase 6 is done)."
+    },
+    "email": {
+      "status": "unverified",
+      "placeholder": "[BUSINESS_EMAIL]",
+      "value": "",
+      "description": "Public email address for enquiries."
+    },
+    "opening_hours": {
+      "status": "unverified",
+      "placeholder": "[OPENING_HOURS]",
+      "value": "",
+      "description": "Office hours, plus whether the parlour is contactable after hours."
+    },
+    "services": {
+      "status": "unverified",
+      "placeholder": "[APPROVED_SERVICES]",
+      "value": [],
+      "description": "Approved list of services and package names, exactly as the owner words them."
+    },
+    "prices": {
+      "status": "unverified",
+      "placeholder": "[APPROVED_PRICES]",
+      "value": "",
+      "description": "Approved price list or the approved way to quote. Never guessed."
+    },
+    "collection_procedure": {
+      "status": "unverified",
+      "placeholder": "[COLLECTION_PROCEDURE]",
+      "value": "",
+      "description": "How a family requests a collection of the deceased, and who handles it."
+    },
+    "payment_methods": {
+      "status": "unverified",
+      "placeholder": "[PAYMENT_METHODS]",
+      "value": "",
+      "description": "Approved payment methods (EFT, cash, etc.) and account-holder details policy."
+    },
+    "staff_contact": {
+      "status": "unverified",
+      "placeholder": "[STAFF_CONTACT]",
+      "value": "",
+      "description": "Where staff alerts should eventually go (phone, email or WhatsApp group)."
+    },
+    "emergency_procedure": {
+      "status": "unverified",
+      "placeholder": "[EMERGENCY_PROCEDURE]",
+      "value": "",
+      "description": "What a family should do after hours or in an emergency."
+    },
+    "service_area": {
+      "status": "unverified",
+      "placeholder": "[SERVICE_AREA]",
+      "value": "",
+      "description": "Towns, suburbs or radius the parlour serves."
+    }
+  }
+}

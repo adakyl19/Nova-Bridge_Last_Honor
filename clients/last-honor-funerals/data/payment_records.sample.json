@@ -1,0 +1,72 @@
+{
+  "dataset_kind": "fictional",
+  "warning": "Every record in this file is invented for testing. These are not real Last Honor Funerals customers. Do not add real customer data here. The receptionist must never quote any of these balances to anyone.",
+  "schema_version": 1,
+  "records": [
+    {
+      "account_ref": "LHF-TEST-0001",
+      "customer_name": "Test Customer Alpha",
+      "customer_phone": "0820000001",
+      "balance_cents": 450000,
+      "currency": "ZAR",
+      "due_date": "2026-11-01",
+      "invoice_status": "outstanding",
+      "do_not_remind": false,
+      "dispute_open": false,
+      "reminders_sent": 1,
+      "last_reminder_date": "2026-11-10"
+    },
+    {
+      "account_ref": "LHF-TEST-0002",
+      "customer_name": "Test Customer Bravo",
+      "customer_phone": "0820000002",
+      "balance_cents": 0,
+      "currency": "ZAR",
+      "due_date": "2026-10-15",
+      "invoice_status": "settled",
+      "do_not_remind": false,
+      "dispute_open": false,
+      "reminders_sent": 0,
+      "last_reminder_date": null
+    },
+    {
+      "account_ref": "LHF-TEST-0003",
+      "customer_name": "Test Customer Charlie",
+      "customer_phone": "0820000003",
+      "balance_cents": 780000,
+      "currency": "ZAR",
+      "due_date": "2026-10-20",
+      "invoice_status": "outstanding",
+      "do_not_remind": true,
+      "dispute_open": false,
+      "reminders_sent": 1,
+      "last_reminder_date": "2026-11-05"
+    },
+    {
+      "account_ref": "LHF-TEST-0004",
+      "customer_name": "Test Customer Delta",
+      "customer_phone": "0820000004",
+      "balance_cents": 250000,
+      "currency": "ZAR",
+      "due_date": "2026-11-05",
+      "invoice_status": "disputed",
+      "do_not_remind": false,
+      "dispute_open": true,
+      "reminders_sent": 0,
+      "last_reminder_date": null
+    },
+    {
+      "account_ref": "LHF-TEST-0005",
+      "customer_name": "Test Customer Echo",
+      "customer_phone": "0820000005",
+      "balance_cents": 320000,
+      "currency": "ZAR",
+      "due_date": "2026-11-20",
+      "invoice_status": "outstanding",
+      "do_not_remind": false,
+      "dispute_open": false,
+      "reminders_sent": 0,
+      "last_reminder_date": null
+    }
+  ]
+}

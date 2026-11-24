@@ -1,0 +1,11 @@
+# The local prototype uses ONLY the Python 3.10+ standard library.
+# Nothing needs to be installed to run it, which keeps costs at zero and
+# avoids supply-chain surprises.
+#
+# Optional packages for later phases - uncomment ONLY when that phase is
+# approved. Each one is a new dependency, so add them deliberately:
+#
+# openai>=1.40          # Phase 3/6: live intent + wording model (paid API)
+# fastapi>=0.110        # Phase 6: webhook endpoint for WhatsApp Cloud API
+# uvicorn>=0.29         # Phase 6: run the webhook server
+# httpx>=0.27           # Phase 6: call the WhatsApp Cloud API

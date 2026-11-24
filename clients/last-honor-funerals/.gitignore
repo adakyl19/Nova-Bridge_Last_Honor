@@ -1,0 +1,17 @@
+# Secrets - never commit
+.env
+
+# Runtime logs and generated records (contain customer messages)
+data/runtime/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/

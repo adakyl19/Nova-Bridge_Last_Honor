@@ -1,0 +1,57 @@
+{
+  "policy_id": "LHF-REMINDER-POLICY-DRAFT-1",
+  "status": "draft",
+  "approved_by_owner": false,
+  "approved_by_staff": false,
+  "templates_approved": false,
+  "business_name": "Last Honor Funerals",
+  "currency": "ZAR",
+  "timezone": "Africa/Johannesburg",
+  "first_reminder_days_after_due": 3,
+  "min_days_between_reminders": 7,
+  "max_reminders_per_account": 3,
+  "send_window": {
+    "start": "09:00",
+    "end": "16:00"
+  },
+  "allowed_weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+  ],
+  "templates": [
+    {
+      "stage": "first",
+      "body": "Good day {customer_name}, this is {business_name}. Our records show an outstanding balance of {amount} on your account, which was due on {due_date}. If you have already paid, please reply so our accounts team can check it. If you would like to discuss arrangements, reply and we will have someone contact you. Thank you."
+    },
+    {
+      "stage": "second",
+      "body": "Good day {customer_name}, this is {business_name}. We are following up on the outstanding balance of {amount} on your account. If payment has already been made, please reply so we can verify it. If you are experiencing difficulty, reply and our accounts team will contact you to discuss options."
+    },
+    {
+      "stage": "final",
+      "body": "Good day {customer_name}, this is {business_name}. This is a final reminder about the outstanding balance of {amount} on your account. Please reply so our accounts team can assist you. We will not send further reminders after this one."
+    }
+  ],
+  "stop_conditions": [
+    "balance settled and verified",
+    "customer asked reminders to stop",
+    "dispute opened",
+    "payment arrangement agreed and recorded",
+    "maximum reminders reached"
+  ],
+  "escalation": {
+    "dispute": "Stop all reminders and create an accounts escalation immediately.",
+    "arrangement_request": "Stop reminders and create an accounts escalation; a person must agree any arrangement.",
+    "claimed_payment": "Pause reminders for 2 business days while the payment is verified by a person.",
+    "stop_request": "Suppress reminders until a person has reviewed the account."
+  },
+  "notes": [
+    "This is a DRAFT. It is not approved by Last Honor Funerals.",
+    "The receptionist never sends payment reminders and never confirms a balance.",
+    "Amounts in templates must come only from verified payment records, never from this file.",
+    "Before activation these must be agreed in writing: reminder intervals, wording, who verifies payments, and how stop requests are confirmed."
+  ]
+}
